@@ -2,8 +2,6 @@
 
 This is a template Typescript project.
 
-This project uses [Yarn](https://yarnpkg.com/) for package management.
-
 Consider using [Volta](https://volta.sh/) for NodeJS varsion management.
 
 ## Usage
