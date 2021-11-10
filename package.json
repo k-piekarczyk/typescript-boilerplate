@@ -2,7 +2,7 @@
     "name": "typescript-boilerplate",
     "packageManager": "yarn@3.1.0",
     "scripts": {
-        "postinstall": "husky install",
+        "husky": "husky install",
         "dev": "ts-node src/main.ts",
         "dev:watch": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
         "cli": "ts-node src/cli.ts",
