@@ -3,3 +3,5 @@ build
 .yarn
 .husky
 .coverage
+jest.config.js
+tsconfig.json

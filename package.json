@@ -1,7 +1,7 @@
 {
     "name": "typescript-boilerplate",
     "scripts": {
-        "postinstall": "husky install",
+        "husky": "husky install",
         "dev": "ts-node src/main.ts",
         "dev:watch": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
         "cli": "ts-node src/cli.ts",
@@ -11,7 +11,7 @@
         "clean": "rimraf dist build",
         "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
         "format:staged": "pretty-quick --staged",
-        "prebuild": "npm run clean",
+        "prebuild": "yarn clean",
         "build": "tsc -p tsconfig.json"
     },
     "devDependencies": {
@@ -32,5 +32,6 @@
     },
     "volta": {
         "node": "16.13.0"
-    }
+    },
+    "packageManager": "yarn@3.1.0"
 }
