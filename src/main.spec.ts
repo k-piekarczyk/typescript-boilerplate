@@ -5,5 +5,5 @@ test("greeting", () => {
 });
 
 test("upper case", () => {
-    expect(upper("Hello :)")).toBe("HELLO :)")
-})
+    expect(upper("Hello :)")).toBe("HELLO :)");
+});

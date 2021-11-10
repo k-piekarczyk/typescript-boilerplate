@@ -16,8 +16,7 @@ cd new-project
 
 npx degit k-piekarczyk/typescript-boilerplate
 
-yarn
-yarn husky
+npm install
 ```
 
 And you're all set up :)
