@@ -2,8 +2,6 @@
 
 This is a template Typescript project.
 
-This project uses [Yarn](https://yarnpkg.com/) for package management.
-
 Consider using [Volta](https://volta.sh/) for NodeJS varsion management.
 
 ## Usage
@@ -16,8 +14,8 @@ cd new-project
 
 npx degit k-piekarczyk/typescript-boilerplate
 
-yarn
-yarn husky
+npm install
+npm run husky
 ```
 
 And you're all set up :)
