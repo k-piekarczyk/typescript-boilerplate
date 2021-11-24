@@ -11,7 +11,7 @@
         "clean": "rimraf dist build",
         "format": "prettier --config .prettierrc 'src/**/*.ts' --write",
         "format:staged": "pretty-quick --staged",
-        "prebuild": "yarn clean",
+        "prebuild": "npm run clean",
         "build": "tsc -p tsconfig.json"
     },
     "devDependencies": {
@@ -33,5 +33,7 @@
     "volta": {
         "node": "16.13.0"
     },
-    "packageManager": "yarn@3.1.0"
+    "dependencies": {
+        "ts-lib": "^0.0.5"
+    }
 }
